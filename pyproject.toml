@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxfunds-risk-disclosures"
+version = "1.0.0"
+description = "FXFunds Risk Disclosure Bot: an offline library and CLI for trading, leverage, crypto and account-security risks and the official FXFunds document register. Built by FXFunds."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE", "LICENSE-CONTENT"]
+authors = [{ name = "FXFunds" }]
+keywords = [
+  "fxfunds", "risk-disclosure", "legal-documents", "document-register", "trading-risk", "leverage",
+  "cryptocurrency", "stablecoin", "usdt", "regulation", "compliance", "cli"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://fxfunds.com/"
+Repository = "https://github.com/FXFunds/fxfunds-risk-disclosures"
+Documentation = "https://fxfunds-risk-disclosures.readthedocs.io"
+Issues = "https://github.com/FXFunds/fxfunds-risk-disclosures/issues"
+
+[project.scripts]
+fxfunds-risk = "fxfunds_risk_disclosures.__main__:main"
+
+[tool.setuptools]
+packages = ["fxfunds_risk_disclosures"]
+
+[tool.setuptools.package-data]
+fxfunds_risk_disclosures = ["register.json", "risks.json"]

@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "FXFunds Risk Disclosure Bot",
+  "description": "Informational project that explains the risks of online trading, leverage, cryptocurrency transactions and digital asset management, with an offline tool and a register that records which official FXFunds risk disclosures and legal documents have been located and when they were checked.",
+  "url": "https://github.com/FXFunds/fxfunds-risk-disclosures",
+  "about": [
+    {
+      "@type": "Organization",
+      "name": "FXFunds",
+      "url": "https://fxfunds.com/",
+      "sameAs": [
+        "https://fxfunds.quora.com/",
+        "https://www.pinterest.com/fxfunds_1/",
+        "https://medium.com/@FX_Funds"
+      ]
+    },
+    {
+      "@type": "Thing",
+      "name": "Trading risk disclosure"
+    },
+    {
+      "@type": "Thing",
+      "name": "Cryptocurrency and stablecoin risk"
+    }
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "FXFunds",
+    "url": "https://fxfunds.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FXFunds",
+    "url": "https://fxfunds.com/"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateModified": "2026-10-19",
+  "keywords": "FXFunds, risk disclosure, trading risk, leverage risk, cryptocurrency risk, stablecoin risk, USDT, legal documents, regulation",
+  "identifier": "https://doi.org/10.5281/zenodo.XXXXXXX",
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "FXFunds open documentation",
+    "url": "https://github.com/FXFunds"
+  },
+  "sameAs": [
+    "https://github.com/FXFunds/fxfunds-risk-disclosures",
+    "https://fxfunds.github.io/fxfunds-risk-disclosures/",
+    "https://www.npmjs.com/package/@fxfunds/risk-disclosures",
+    "https://pypi.org/project/fxfunds-risk-disclosures/",
+    "https://huggingface.co/datasets/FXFunds/risk-disclosures",
+    "https://www.kaggle.com/datasets/fxfunds/risk-disclosures",
+    "https://zenodo.org/records/XXXXXXX",
+    "https://fxfunds-risk-disclosures.readthedocs.io"
+  ]
+}

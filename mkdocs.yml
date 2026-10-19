@@ -1,0 +1,28 @@
+site_name: FXFunds Risk Disclosure Bot
+site_url: https://fxfunds-risk-disclosures.readthedocs.io
+site_description: "Informational project that explains the risks of online trading, leverage, cryptocurrency transactions and digital asset management, with an offline tool and a register that records which official FXFunds risk disclosures and legal documents have been located and when they were checked."
+site_author: FXFunds
+repo_url: https://github.com/FXFunds/fxfunds-risk-disclosures
+repo_name: FXFunds/fxfunds-risk-disclosures
+copyright: MIT License (code) · CC BY 4.0 (content) — FXFunds (https://fxfunds.com/)
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - Document register: document-register.md
+  - Risk categories: risk-categories.md
+  - Trading risk disclosures: disclosures/index.md
+  - Crypto and stablecoin risks: crypto-risks/index.md
+  - Deposit and withdrawal terms: payments/index.md
+  - Legal, regulatory and privacy: legal/index.md
+  - Maintenance policy: maintenance.md
+  - Use the register in code: packages.md
+  - Related repositories: related-repositories.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true

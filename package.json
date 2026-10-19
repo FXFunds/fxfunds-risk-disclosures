@@ -1,0 +1,55 @@
+{
+  "name": "@fxfunds/risk-disclosures",
+  "version": "1.0.0",
+  "description": "FXFunds Risk Disclosure Bot — an offline library and CLI that explains trading, leverage, crypto and account-security risks and shows which official FXFunds risk disclosures and legal documents have been located.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "fxfunds-risk": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "fxfunds_risk_disclosures/register.json",
+    "fxfunds_risk_disclosures/risks.json",
+    "README.md",
+    "LICENSE",
+    "LICENSE-CONTENT"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fxfunds",
+    "risk-disclosure",
+    "legal-documents",
+    "document-register",
+    "trading-risk",
+    "leverage",
+    "cryptocurrency",
+    "stablecoin",
+    "usdt",
+    "regulation",
+    "compliance",
+    "cli"
+  ],
+  "author": "FXFunds",
+  "license": "MIT",
+  "homepage": "https://fxfunds.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXFunds/fxfunds-risk-disclosures.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FXFunds/fxfunds-risk-disclosures/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
