@@ -1,0 +1,92 @@
+{
+  "title": "FXFunds risk categories",
+  "last_checked": "2026-10-19",
+  "risks": [
+    {
+      "id": "market",
+      "name": "Market risk",
+      "consideration": "Prices can move quickly and losses may exceed expectations.",
+      "example": "A currency pair gaps over a weekend and opens far from Friday's close.",
+      "register_ids": [
+        "REG-02",
+        "REG-03"
+      ],
+      "what_to_check": "Risk disclosure / risk warning; Product or contract specifications"
+    },
+    {
+      "id": "leverage",
+      "name": "Leverage risk",
+      "consideration": "Leverage amplifies both gains and losses.",
+      "example": "At 1:100 leverage, a 1% adverse move equals 100% of the margin used.",
+      "register_ids": [
+        "REG-04",
+        "REG-02"
+      ],
+      "what_to_check": "Leverage and margin terms; Risk disclosure / risk warning"
+    },
+    {
+      "id": "digital-asset",
+      "name": "Digital asset risk",
+      "consideration": "Cryptocurrency prices and liquidity can change sharply, 24 hours a day.",
+      "example": "A token falls 20% overnight while traditional markets are closed.",
+      "register_ids": [
+        "REG-03",
+        "REG-09"
+      ],
+      "what_to_check": "Product or contract specifications; Crypto deposit and withdrawal instructions"
+    },
+    {
+      "id": "stablecoin",
+      "name": "Stablecoin risk",
+      "consideration": "Peg stability and redemption depend on the issuer and market conditions.",
+      "example": "USDT briefly traded below US$1 during market stress in May 2022.",
+      "register_ids": [
+        "REG-09"
+      ],
+      "what_to_check": "Crypto deposit and withdrawal instructions"
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain risk",
+      "consideration": "Transfers are generally irreversible and can be lost on an incompatible network.",
+      "example": "USDT sent on Ethereum to an address expecting Tron cannot be credited normally.",
+      "register_ids": [
+        "REG-09"
+      ],
+      "what_to_check": "Crypto deposit and withdrawal instructions"
+    },
+    {
+      "id": "operational",
+      "name": "Operational risk",
+      "consideration": "Outages, maintenance and processing delays can affect trading and payments.",
+      "example": "A withdrawal is delayed during a platform or network outage.",
+      "register_ids": [
+        "REG-10",
+        "REG-07"
+      ],
+      "what_to_check": "Terms and conditions / client agreement; Deposit and withdrawal terms"
+    },
+    {
+      "id": "counterparty",
+      "name": "Counterparty risk",
+      "consideration": "You depend on the operator's ability to honour trades and return funds.",
+      "example": "The operator acts as the counterparty to client trades.",
+      "register_ids": [
+        "REG-06",
+        "REG-11"
+      ],
+      "what_to_check": "Conflicts of interest policy; Operator identity"
+    },
+    {
+      "id": "regulatory",
+      "name": "Regulatory risk",
+      "consideration": "Legal requirements and protections differ by jurisdiction and product.",
+      "example": "A product available in one country may be restricted in another.",
+      "register_ids": [
+        "REG-12",
+        "REG-10"
+      ],
+      "what_to_check": "Licence and regulator disclosure; Terms and conditions / client agreement"
+    }
+  ]
+}

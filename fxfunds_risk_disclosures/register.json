@@ -1,0 +1,189 @@
+{
+  "title": "FXFunds official document register",
+  "official_website": "https://fxfunds.com/",
+  "last_checked": "2026-10-19",
+  "status_values": {
+    "located": "Official document found; URL recorded",
+    "not-located": "Not found on publicly readable pages at the last check",
+    "inaccessible": "Link exists but the document could not be opened",
+    "outdated": "Document found but marked as superseded or older than the current version"
+  },
+  "documents": [
+    {
+      "id": "REG-01",
+      "category": "General",
+      "document": "Official website",
+      "should_cover": "Primary source for all official FXFunds information",
+      "status": "located",
+      "official_url": "https://fxfunds.com/",
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Website located. Main content loads with JavaScript; only title and description metadata were readable at the last check."
+    },
+    {
+      "id": "REG-02",
+      "category": "Trading",
+      "document": "Risk disclosure / risk warning",
+      "should_cover": "Risks of each product, leverage, possibility of loss",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-03",
+      "category": "Trading",
+      "document": "Product or contract specifications",
+      "should_cover": "Instruments, contract sizes, trading hours, costs",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-04",
+      "category": "Trading",
+      "document": "Leverage and margin terms",
+      "should_cover": "Maximum leverage, margin call and stop-out levels, negative balance treatment",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-05",
+      "category": "Trading",
+      "document": "Order execution policy",
+      "should_cover": "How orders are executed, pricing sources, slippage",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-06",
+      "category": "Trading",
+      "document": "Conflicts of interest policy",
+      "should_cover": "Whether the platform acts as counterparty to client trades",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-07",
+      "category": "Payments",
+      "document": "Deposit and withdrawal terms",
+      "should_cover": "Supported methods, processing times, limits, conditions",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-08",
+      "category": "Payments",
+      "document": "Fees and charges schedule",
+      "should_cover": "Deposit, withdrawal, inactivity, conversion and trading fees",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-09",
+      "category": "Crypto",
+      "document": "Crypto deposit and withdrawal instructions",
+      "should_cover": "Supported tokens and networks, memo or comment rules, confirmations",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-10",
+      "category": "Legal",
+      "document": "Terms and conditions / client agreement",
+      "should_cover": "Contract between the client and the operator",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-11",
+      "category": "Legal",
+      "document": "Operator identity",
+      "should_cover": "Legal company name, registration number, registered address",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-12",
+      "category": "Legal",
+      "document": "Licence and regulator disclosure",
+      "should_cover": "Regulator name, licence number, permitted services, jurisdiction",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-13",
+      "category": "Legal",
+      "document": "Complaints procedure",
+      "should_cover": "How to complain and any external dispute-resolution body",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-14",
+      "category": "Legal",
+      "document": "AML / KYC policy",
+      "should_cover": "Identity verification requirements and when they apply",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-15",
+      "category": "Privacy",
+      "document": "Privacy policy",
+      "should_cover": "Personal data collected, purposes, sharing, retention, user rights",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    },
+    {
+      "id": "REG-16",
+      "category": "Privacy",
+      "document": "Cookie policy",
+      "should_cover": "Cookies and tracking used on the website",
+      "status": "not-located",
+      "official_url": null,
+      "document_date": null,
+      "last_checked": "2026-10-19",
+      "notes": "Not located on publicly readable pages or by public web search."
+    }
+  ]
+}
