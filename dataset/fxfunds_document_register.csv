@@ -1,0 +1,17 @@
+id,category,document,should_cover,status,status_label,official_url,document_date,last_checked,notes
+REG-01,General,Official website,Primary source for all official FXFunds information,located,✅ Located,https://fxfunds.com/,,2026-10-19,Website located. Main content loads with JavaScript; only title and description metadata were readable at the last check.
+REG-02,Trading,Risk disclosure / risk warning,"Risks of each product, leverage, possibility of loss",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-03,Trading,Product or contract specifications,"Instruments, contract sizes, trading hours, costs",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-04,Trading,Leverage and margin terms,"Maximum leverage, margin call and stop-out levels, negative balance treatment",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-05,Trading,Order execution policy,"How orders are executed, pricing sources, slippage",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-06,Trading,Conflicts of interest policy,Whether the platform acts as counterparty to client trades,not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-07,Payments,Deposit and withdrawal terms,"Supported methods, processing times, limits, conditions",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-08,Payments,Fees and charges schedule,"Deposit, withdrawal, inactivity, conversion and trading fees",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-09,Crypto,Crypto deposit and withdrawal instructions,"Supported tokens and networks, memo or comment rules, confirmations",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-10,Legal,Terms and conditions / client agreement,Contract between the client and the operator,not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-11,Legal,Operator identity,"Legal company name, registration number, registered address",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-12,Legal,Licence and regulator disclosure,"Regulator name, licence number, permitted services, jurisdiction",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-13,Legal,Complaints procedure,How to complain and any external dispute-resolution body,not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-14,Legal,AML / KYC policy,Identity verification requirements and when they apply,not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-15,Privacy,Privacy policy,"Personal data collected, purposes, sharing, retention, user rights",not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
+REG-16,Privacy,Cookie policy,Cookies and tracking used on the website,not-located,❓ Not located,,,2026-10-19,Not located on publicly readable pages or by public web search.
