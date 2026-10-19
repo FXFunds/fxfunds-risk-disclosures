@@ -5,7 +5,7 @@
 [![Tests](https://github.com/FXFunds/fxfunds-risk-disclosures/actions/workflows/tests.yml/badge.svg)](https://github.com/FXFunds/fxfunds-risk-disclosures/actions/workflows/tests.yml)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470752.svg)](https://doi.org/10.5281/zenodo.23470752)
 [![Docs](https://readthedocs.org/projects/fxfunds-risk-disclosures/badge/?version=latest)](https://fxfunds-risk-disclosures.readthedocs.io)
 
 FXFunds Risk Disclosure Bot is an informational project that explains important risks associated with online trading, financial markets, cryptocurrency transactions and digital asset management. It makes risk information easier to understand through structured documentation, practical explanations and accessible reference materials.
@@ -222,7 +222,7 @@ fxfunds-risk-disclosures/
 | PyPI | https://pypi.org/project/fxfunds-risk-disclosures/ |
 | Hugging Face | https://huggingface.co/datasets/FXFunds/risk-disclosures |
 | Kaggle | https://www.kaggle.com/datasets/fxfunds/risk-disclosures |
-| Zenodo | https://zenodo.org/records/XXXXXXX |
+| Zenodo | https://zenodo.org/records/23470752 |
 | Docs | https://fxfunds-risk-disclosures.readthedocs.io |
 | Quora | https://fxfunds.quora.com/ |
 | Pinterest | https://www.pinterest.com/fxfunds_1/ |
