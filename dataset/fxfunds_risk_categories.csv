@@ -1,0 +1,9 @@
+id,name,consideration,example,what_to_check,register_ids
+market,Market risk,Prices can move quickly and losses may exceed expectations.,A currency pair gaps over a weekend and opens far from Friday's close.,Risk disclosure / risk warning; Product or contract specifications,REG-02;REG-03
+leverage,Leverage risk,Leverage amplifies both gains and losses.,"At 1:100 leverage, a 1% adverse move equals 100% of the margin used.",Leverage and margin terms; Risk disclosure / risk warning,REG-04;REG-02
+digital-asset,Digital asset risk,"Cryptocurrency prices and liquidity can change sharply, 24 hours a day.",A token falls 20% overnight while traditional markets are closed.,Product or contract specifications; Crypto deposit and withdrawal instructions,REG-03;REG-09
+stablecoin,Stablecoin risk,Peg stability and redemption depend on the issuer and market conditions.,USDT briefly traded below US$1 during market stress in May 2022.,Crypto deposit and withdrawal instructions,REG-09
+blockchain,Blockchain risk,Transfers are generally irreversible and can be lost on an incompatible network.,USDT sent on Ethereum to an address expecting Tron cannot be credited normally.,Crypto deposit and withdrawal instructions,REG-09
+operational,Operational risk,"Outages, maintenance and processing delays can affect trading and payments.",A withdrawal is delayed during a platform or network outage.,Terms and conditions / client agreement; Deposit and withdrawal terms,REG-10;REG-07
+counterparty,Counterparty risk,You depend on the operator's ability to honour trades and return funds.,The operator acts as the counterparty to client trades.,Conflicts of interest policy; Operator identity,REG-06;REG-11
+regulatory,Regulatory risk,Legal requirements and protections differ by jurisdiction and product.,A product available in one country may be restricted in another.,Licence and regulator disclosure; Terms and conditions / client agreement,REG-12;REG-10
