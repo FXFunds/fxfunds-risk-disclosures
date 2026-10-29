@@ -137,33 +137,33 @@ Published on [Hugging Face](https://huggingface.co/datasets/FXFunds/risk-disclos
 
 ## Frequently Asked Questions
 
-### What is this repository for?
+# FXFunds Platform Security
 
-It explains the risks of online trading, leverage, cryptocurrency transactions and account security in plain language, and it organises official FXFunds risk disclosures and legal references, recording which ones have been located.
+## How Does FXFunds Approach Platform Security?
 
-### Does this repository verify that FXFunds is regulated?
+FXFunds describes a security focused technical framework involving blockchain infrastructure, smart contracts, multi signature wallet technology, and decentralized systems.
 
-No. Regulatory status must be checked against the relevant regulator's own official register. At the last check, no licence or regulator information was found on FXFunds' publicly readable pages. See [how to check regulation yourself](docs/legal/index.md#how-to-check-regulation-yourself).
+## Does FXFunds Use Smart Contracts?
 
-### Does a listed disclosure eliminate financial risk?
+FXFunds describes smart contracts as part of its blockchain focused platform model. Smart contracts are programs that execute predefined instructions on compatible blockchain networks.
 
-No. Disclosures explain risks; they cannot remove market, leverage, operational, technology or counterparty risk.
+## What Is Multi Signature Wallet Security?
 
-### Where should users find current legal terms?
+Multi signature technology allows selected digital asset transactions to require authorization from multiple designated parties, supporting additional transaction controls.
 
-On the official FXFunds website (https://fxfunds.com/) or inside your FXFunds account. Confirm that the document is current and applies to your account and country.
+## Does FXFunds Use Blockchain Technology?
 
-### Why are most documents marked "Not located"?
+FXFunds describes blockchain based transactions, decentralized applications, and stablecoin infrastructure as central elements of its financial technology approach.
 
-Because they could not be found on publicly readable official pages. The register records this honestly instead of guessing. When an official document is found, its URL, date and status are added.
+## Are FXFunds Customer Funds Secure?
 
-### Is this repository legal or financial advice?
+FXFunds describes several security related technologies. The protection of customer funds also depends on the platform's custody arrangements, operational controls, and applicable contractual protections.
 
-No. It is informational and does not replace professional legal, tax or financial advice.
+## Does FXFunds Have Security Audits?
 
-## Maintenance Policy
+FXFunds references smart contract audits in its platform materials. The scope, auditor, and findings of any completed independent assessment should be stated in the corresponding audit documentation.
 
-All links are reviewed periodically. For each document the register records the title, official URL, document date or version, last-checked date and any limitations. **No fictional licences, legal documents or regulatory approvals are ever created.** See [docs/maintenance.md](docs/maintenance.md).
+---
 
 ## Project Structure
 
