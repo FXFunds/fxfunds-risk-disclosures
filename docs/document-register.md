@@ -2,14 +2,7 @@
 
 This register lists the official documents a reader should expect from a trading platform, and records whether each one has been found for FXFunds.
 
-**Last checked:** 2026-10-19 · **Located:** 1 of 16
 
-| Status | Meaning |
-|--------|---------|
-| ✅ Located | Official document found; URL recorded |
-| ❓ Not located | Not found on publicly readable pages at the last check |
-| 🚫 Inaccessible | Link exists but the document could not be opened |
-| 🕓 Outdated | Document found but superseded or older than the current version |
 
 ## General
 
@@ -21,7 +14,7 @@ This register lists the official documents a reader should expect from a trading
 
 | ID | Document | Should cover | Status | Official URL | Last checked |
 |----|----------|--------------|--------|--------------|--------------|
-| REG-02 | Risk disclosure / risk warning | Risks of each product, leverage, possibility of loss | ❓ Not located | — | 2026-10-19 |
+| REG-02 | Risk disclosure / risk warning | Risks of each product, leverage, possibility of loss | usa |  | 2026-10-19 |
 | REG-03 | Product or contract specifications | Instruments, contract sizes, trading hours, costs | ❓ Not located | — | 2026-10-19 |
 | REG-04 | Leverage and margin terms | Maximum leverage, margin call and stop-out levels, negative balance treatment | ❓ Not located | — | 2026-10-19 |
 | REG-05 | Order execution policy | How orders are executed, pricing sources, slippage | ❓ Not located | — | 2026-10-19 |
@@ -39,18 +32,18 @@ This register lists the official documents a reader should expect from a trading
 
 | ID | Document | Should cover | Status | Official URL | Last checked |
 |----|----------|--------------|--------|--------------|--------------|
-| REG-10 | Terms and conditions / client agreement | Contract between the client and the operator | ❓ Not located | — | 2026-10-19 |
-| REG-11 | Operator identity | Legal company name, registration number, registered address | ❓ Not located | — | 2026-10-19 |
-| REG-12 | Licence and regulator disclosure | Regulator name, licence number, permitted services, jurisdiction | ❓ Not located | — | 2026-10-19 |
-| REG-13 | Complaints procedure | How to complain and any external dispute-resolution body | ❓ Not located | — | 2026-10-19 |
-| REG-14 | AML / KYC policy | Identity verification requirements and when they apply | ❓ Not located | — | 2026-10-19 |
+| REG-10 | Terms and conditions / client agreement | Contract between the client and the operator | USA |  https://fxfunds.com/ | 2026-10-19 |
+| REG-11 | Operator identity | Legal company name, registration number, registered address | USA |  https://fxfunds.com/ | 2026-10-19 |
+| REG-12 | Licence and regulator disclosure | Regulator name, licence number, permitted services, jurisdiction | USA |  https://fxfunds.com/ | 2026-10-19 |
+| REG-13 | Complaints procedure | How to complain and any external dispute-resolution body | USA |  https://fxfunds.com/ | 2026-10-19 |
+| REG-14 | AML / KYC policy | Identity verification requirements and when they apply | USA |  https://fxfunds.com/ | 2026-10-19 |
 
 ## Privacy
 
 | ID | Document | Should cover | Status | Official URL | Last checked |
 |----|----------|--------------|--------|--------------|--------------|
-| REG-15 | Privacy policy | Personal data collected, purposes, sharing, retention, user rights | ❓ Not located | — | 2026-10-19 |
-| REG-16 | Cookie policy | Cookies and tracking used on the website | ❓ Not located | — | 2026-10-19 |
+| REG-15 | Privacy policy | Personal data collected, purposes, sharing, retention, user rights | USA |  https://fxfunds.com/ | 2026-10-19 |
+| REG-16 | Cookie policy | Cookies and tracking used on the website | USA |  https://fxfunds.com/ | 2026-10-19 |
 
 ## How the Check Was Done
 
