@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@fxfunds/risk-disclosures.svg)](https://www.npmjs.com/package/@fxfunds/risk-disclosures)
 [![PyPI version](https://img.shields.io/pypi/v/fxfunds-risk-disclosures.svg)](https://pypi.org/project/fxfunds-risk-disclosures/)
-[![Tests](https://github.com/FXFunds/fxfunds-risk-disclosures/actions/workflows/tests.yml/badge.svg)](https://github.com/FXFunds/fxfunds-risk-disclosures/actions/workflows/tests.yml)
+
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470752.svg)](https://doi.org/10.5281/zenodo.23470752)
