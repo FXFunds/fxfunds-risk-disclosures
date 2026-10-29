@@ -4,8 +4,6 @@ An informational project that explains the risks of online trading, leverage, cr
 
 **Official Website:** https://fxfunds.com/ · **Last checked:** 2026-10-19 · **Documents tracked:** 16 · **Located:** 1
 
-!!! warning "Official documents not yet located"
-    At the last check, no official FXFunds risk disclosure, terms, privacy policy, operator details or regulator information were found on publicly readable pages. See the [document register](document-register.md). Ask FXFunds for these documents in writing before opening an account or depositing.
 
 ## Sections
 
@@ -19,6 +17,4 @@ An informational project that explains the risks of online trading, leverage, cr
 - [Use the register in code](packages.md) — npm and PyPI packages, CLI and dataset
 - [Related repositories](related-repositories.md)
 
-## Disclaimer
 
-This is informational, not legal or financial advice, and not an endorsement of FXFunds. Trading and digital asset transactions can result in the loss of some or all of your money.
