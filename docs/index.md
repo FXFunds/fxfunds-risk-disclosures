@@ -19,6 +19,6 @@ fxfunds-risk transfer --network TRC20 --expected TRC20 --first-time
 | 61–80 | High |
 | 81–100 | Very high |
 
-See the [Risk FAQ](faq.md) for FAQs grouped by risk category, or run `fxfunds-risk ask <keyword>`.
+See the [FAQ](faq.md), or run `fxfunds-risk ask <keyword>`.
 
 This is a reference tool, not financial advice and not an endorsement of FXFunds. The risk percentage is an estimate and does not predict market moves.
