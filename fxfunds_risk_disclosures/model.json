@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "forex":   { "name": "Forex",           "daily_vol": 0.6, "market": "fx" },
+    "metals":  { "name": "Precious metals", "daily_vol": 1.2, "market": "fx" },
+    "stocks":  { "name": "Stocks",          "daily_vol": 1.8, "market": "stocks" },
+    "futures": { "name": "Futures",         "daily_vol": 1.5, "market": "fx" },
+    "crypto":  { "name": "Cryptocurrency",  "daily_vol": 3.5, "market": "crypto" }
+  },
+  "weights": { "wipe": 0.45, "loss": 0.35, "timing": 0.20 },
+  "scales":  { "wipe": 4, "loss": 8, "bad_day_sigma": 2, "stop_slippage": 0.2, "news_vol": 1.5, "news_timing": 30 },
+  "levels": [
+    { "max": 30,  "label": "Low" },
+    { "max": 60,  "label": "Moderate" },
+    { "max": 80,  "label": "High" },
+    { "max": 100, "label": "Very high" }
+  ],
+  "networks": {
+    "TON":   { "name": "TON",            "pattern": "^(UQ|EQ)[A-Za-z0-9_-]{46}$",          "aliases": ["TON"] },
+    "ERC20": { "name": "Ethereum ERC-20", "pattern": "^0x[0-9a-fA-F]{40}$",                 "aliases": ["ERC20", "ERC-20", "ETH", "ETHEREUM"] },
+    "TRC20": { "name": "Tron TRC-20",     "pattern": "^T[1-9A-HJ-NP-Za-km-z]{33}$",         "aliases": ["TRC20", "TRC-20", "TRON", "TRX"] }
+  }
+}
