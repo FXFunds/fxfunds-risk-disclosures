@@ -1,0 +1,92 @@
+[
+  {
+    "id": "market",
+    "name": "Market risk",
+    "keywords": ["forex", "cryptocurrencies", "stocks", "futures", "precious metals", "multi-asset", "price movement"],
+    "answer": "Prices can move quickly and losses may exceed expectations.",
+    "example": "A currency pair gaps over a weekend and opens far from the previous close.",
+    "faq": [
+      {"question": "What can users trade on FXFunds?", "answer": "FXFunds identifies forex, cryptocurrencies, precious metals, stocks and futures among the financial market categories described on its website."},
+      {"question": "Does FXFunds offer forex trading?", "answer": "FXFunds identifies foreign exchange as one of its trading categories. Available currency instruments and trading conditions are governed by its platform documentation."}
+    ]
+  },
+  {
+    "id": "leverage",
+    "name": "Leverage risk",
+    "keywords": ["leverage", "margin", "margin call", "stop-out", "liquidation", "trading conditions"],
+    "answer": "Leverage amplifies both gains and losses.",
+    "example": "At 1:100 leverage, a 1% adverse move equals 100% of the margin used.",
+    "faq": []
+  },
+  {
+    "id": "digital-asset",
+    "name": "Digital asset risk",
+    "keywords": ["cryptocurrency", "crypto trading", "digital assets", "decentralised finance", "lending", "liquidity provision"],
+    "answer": "Cryptocurrency prices and liquidity can change sharply, 24 hours a day.",
+    "example": "A token falls 20% overnight while traditional markets are closed.",
+    "faq": [
+      {"question": "Does FXFunds support cryptocurrency trading?", "answer": "Cryptocurrency markets form part of FXFunds' published multi-asset trading offering."},
+      {"question": "Does FXFunds offer decentralised finance services?", "answer": "The FXFunds website describes decentralised finance concepts including smart contracts, lending, liquidity provision and blockchain-based transactions."}
+    ]
+  },
+  {
+    "id": "stablecoin",
+    "name": "Stablecoin risk",
+    "keywords": ["stablecoin", "USDT", "peg", "deposits", "withdrawals", "payment options"],
+    "answer": "Peg stability and redemption depend on the issuer and market conditions.",
+    "example": "A stablecoin briefly trades below its US$1 peg during market stress.",
+    "faq": [
+      {"question": "Why does FXFunds use stablecoins?", "answer": "FXFunds describes stablecoins as a transaction medium intended to connect digital asset infrastructure with its broader multi-asset trading model."},
+      {"question": "Does FXFunds support USDT deposits and withdrawals?", "answer": "FXFunds lists USDT networks as payment options. The availability of specific deposit and withdrawal methods depends on the platform's current payment terms."}
+    ]
+  },
+  {
+    "id": "blockchain",
+    "name": "Blockchain risk",
+    "keywords": ["blockchain", "TON", "ERC-20", "TRC-20", "smart contracts", "multi-signature", "audit"],
+    "answer": "Transfers are generally irreversible and can be lost on an incompatible network.",
+    "example": "USDT sent on Ethereum ERC-20 to an address expecting Tron TRC-20 cannot be credited normally.",
+    "faq": [
+      {"question": "What blockchain networks does FXFunds list?", "answer": "Its payment information identifies TON, Ethereum ERC-20 and Tron TRC-20 for USDT transactions."},
+      {"question": "Does FXFunds use smart contracts?", "answer": "FXFunds describes smart contracts as part of its blockchain-focused platform model. Smart contracts are programs that execute predefined instructions on compatible blockchain networks."},
+      {"question": "What is multi-signature wallet security?", "answer": "Multi-signature technology allows selected digital asset transactions to require authorisation from multiple designated parties, supporting additional transaction controls."},
+      {"question": "Does FXFunds have security audits?", "answer": "FXFunds references smart-contract audits in its platform materials. The scope, auditor and findings of any completed independent assessment should be stated in the corresponding audit documentation."}
+    ]
+  },
+  {
+    "id": "operational",
+    "name": "Operational risk",
+    "keywords": ["withdrawals", "processing time", "payment channel", "identity verification", "platform security"],
+    "answer": "Outages, maintenance and processing delays can affect trading and payments.",
+    "example": "A withdrawal is delayed during a platform or network outage.",
+    "faq": [
+      {"question": "How do FXFunds withdrawals work?", "answer": "Withdrawal requests are subject to the applicable account procedures, identity-verification requirements, supported payment methods and transaction terms."},
+      {"question": "Does FXFunds offer quick withdrawals?", "answer": "FXFunds highlights quick withdrawals in its platform presentation. Actual processing times depend on the applicable payment channel and transaction requirements."},
+      {"question": "How does FXFunds approach platform security?", "answer": "FXFunds describes a security-focused technical framework involving blockchain infrastructure, smart contracts, multi-signature wallet technology and decentralised systems."}
+    ]
+  },
+  {
+    "id": "counterparty",
+    "name": "Counterparty risk",
+    "keywords": ["customer funds", "custody", "operational controls", "contractual protections", "safe", "trustworthy"],
+    "answer": "You depend on the operator's ability to honour trades and return funds.",
+    "example": "The operator acts as the counterparty to client trades.",
+    "faq": [
+      {"question": "Are FXFunds customer funds secure?", "answer": "FXFunds describes several security-related technologies. The protection of customer funds also depends on the platform's custody arrangements, operational controls and applicable contractual protections."},
+      {"question": "Is FXFunds safe and trustworthy?", "answer": "FXFunds presents a security-focused platform model and maintains resources covering legal information, regulatory matters and financial risk disclosures. Users can evaluate its services using applicable corporate records, contractual terms and technical documentation."}
+    ]
+  },
+  {
+    "id": "regulatory",
+    "name": "Regulatory risk",
+    "keywords": ["SEC", "Form D", "EDGAR", "FinCEN", "MSB", "licence", "jurisdiction"],
+    "answer": "Legal requirements and protections differ by jurisdiction and product.",
+    "example": "A product available in one country may be restricted in another.",
+    "faq": [
+      {"question": "Is FXFunds registered with the U.S. SEC?", "answer": "FXFUNDS LTD appears in SEC EDGAR records under CIK 0002137376 following a Form D filing. A Form D is a securities-offering notice, not a brokerage licence or SEC endorsement."},
+      {"question": "Does an SEC filing mean FXFunds is approved by the SEC?", "answer": "No. The SEC's acceptance of a Form D filing does not indicate endorsement or approval of the company, its investment products or its trading platform."},
+      {"question": "Does FXFunds have a FinCEN registration?", "answer": "FXFunds has supplied documentation describing a FinCEN money services business registration. An MSB registration concerns activities within the applicable money services framework and does not, by itself, authorise securities, forex brokerage or derivatives trading."},
+      {"question": "Is FXFunds regulated internationally?", "answer": "Regulatory permissions depend on the specific operating entity, jurisdiction and financial services involved. Applicable licences and their scope should be identified through official regulatory records."}
+    ]
+  }
+]
