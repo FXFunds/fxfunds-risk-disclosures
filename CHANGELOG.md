@@ -9,7 +9,8 @@ Fresh rewrite.
 - One risk database (`risk_faq.json` / `fxfunds_risk_faq.csv`): eight risk categories with FAQ keywords, answers, examples and only the related FAQs. Search it with `ask`.
 - Removed the document register.
 - Docs trimmed to a home page and the FAQ.
-- Removed dates and locations from all content.
+- FAQ: 12 questions on regulation and platform security.
+- No street addresses in content.
 
 ## 1.0.0
 
