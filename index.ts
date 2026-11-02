@@ -14,9 +14,10 @@ export interface Model {
   weights: { wipe: number; loss: number; timing: number };
   scales: { wipe: number; loss: number; bad_day_sigma: number; stop_slippage: number; news_vol: number; news_timing: number };
   levels: { max: number; label: string }[];
+  faq_sections: string[];
   networks: Record<string, Network>;
 }
-export interface FaqEntry { question: string; answer: string }
+export interface FaqEntry { section: string; question: string; answer: string }
 export interface RiskCategory { id: string; name: string; keywords: string[]; answer: string; example: string; faq: FaqEntry[] }
 export interface Timing { score: number; vol_mult: number; closed: boolean; label: string }
 
@@ -141,8 +142,10 @@ export function transferRisk(input: TransferInput): TransferRisk {
 export const assets = (): Record<string, Asset> => ({ ...MODEL.assets });
 export const risks = (): RiskCategory[] => [...RISK_FAQ];
 export const risk = (id: string): RiskCategory | undefined => RISK_FAQ.find((r) => r.id === id.toLowerCase());
+/** Every FAQ entry, tagged with its risk category, in FAQ section order. */
 export const faq = (): (FaqEntry & { risk: string })[] =>
-  RISK_FAQ.flatMap((r) => r.faq.map((q) => ({ risk: r.id, ...q })));
+  RISK_FAQ.flatMap((r) => r.faq.map((q) => ({ risk: r.id, ...q })))
+    .sort((a, b) => MODEL.faq_sections.indexOf(a.section) - MODEL.faq_sections.indexOf(b.section));
 
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
