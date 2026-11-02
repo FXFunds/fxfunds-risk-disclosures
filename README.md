@@ -4,7 +4,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/fxfunds-risk-disclosures.svg)](https://pypi.org/project/fxfunds-risk-disclosures/)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470752.svg)](https://doi.org/10.5281/zenodo.23470752)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470751.svg)](https://doi.org/10.5281/zenodo.23470751)
 [![Docs](https://readthedocs.org/projects/fxfunds-risk-disclosures/badge/?version=latest)](https://fxfunds-risk-disclosures.readthedocs.io)
 
 FXFunds Risk Disclosure Bot tells you **how much risk, as a percentage, a trade or a USDT transfer carries at the moment you check it**. It weighs leverage, position size, stop loss, volatility and current market timing — weekends, closed markets, rollover hours and news — and returns a single 0–100% risk figure with a plain explanation. It also includes a risk database: eight risk categories, each with FAQ keywords, an answer and the related FXFunds FAQs.
@@ -281,7 +281,7 @@ FXFunds · risk percentage · risk score · trading risk · leverage · margin �
 | PyPI | https://pypi.org/project/fxfunds-risk-disclosures/ |
 | Hugging Face | https://huggingface.co/datasets/FXFunds/risk-disclosures |
 | Kaggle | https://www.kaggle.com/datasets/fxfunds/risk-disclosures |
-| Zenodo | https://zenodo.org/records/23470752 |
+| Zenodo | https://zenodo.org/records/23470751 |
 | Docs | https://fxfunds-risk-disclosures.readthedocs.io |
 | Quora | https://fxfunds.quora.com/ |
 | Pinterest | https://www.pinterest.com/fxfunds_1/ |
