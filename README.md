@@ -175,10 +175,9 @@ One database, [`risk_faq.json`](fxfunds_risk_disclosures/risk_faq.json), links e
 
 The same data as a single CSV, one row per related FAQ: [`dataset/fxfunds_risk_faq.csv`](dataset/fxfunds_risk_faq.csv) — columns `risk_id`, `risk_category`, `keywords`, `risk_answer`, `example`, `question`, `answer`. Published on [Hugging Face](https://huggingface.co/datasets/FXFunds/risk-disclosures) and [Kaggle](https://www.kaggle.com/datasets/fxfunds/risk-disclosures).
 
-## Risk FAQ
+## FAQ
 
 <!-- FAQ:START -->
-## Regulation and Corporate Transparency
 
 **Does FXFunds have regulatory documentation?**
 
