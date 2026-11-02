@@ -87,7 +87,7 @@ Regulatory risk
   Example:  A product available in one country may be restricted in another.
   Keywords: SEC, Form D, EDGAR, FinCEN, MSB, licence, jurisdiction
   Q: Is FXFunds registered with the U.S. SEC?
-     FXFUNDS LTD appears in SEC EDGAR records under CIK 0002137376 following a Form D filing. ...
+     FXFUNDS LTD appears in SEC EDGAR records under CIK 0002137376 following a Form D filing on May 28, 2026. ...
 ```
 
 Add `--json` to any command for JSON output.
@@ -167,18 +167,17 @@ One database, [`risk_faq.json`](fxfunds_risk_disclosures/risk_faq.json), links e
 | Leverage risk | leverage, margin, margin call, stop-out, liquidation, trading conditions | Leverage amplifies both gains and losses. |
 | Digital asset risk | cryptocurrency, crypto trading, digital assets, decentralised finance, lending, liquidity provision | Cryptocurrency prices and liquidity can change sharply, 24 hours a day. |
 | Stablecoin risk | stablecoin, USDT, peg, deposits, withdrawals, payment options | Peg stability and redemption depend on the issuer and market conditions. |
-| Blockchain risk | blockchain, TON, ERC-20, TRC-20, smart contracts, multi-signature, audit | Transfers are generally irreversible and can be lost on an incompatible network. |
+| Blockchain risk | blockchain, TON, ERC-20, TRC-20, smart contracts, multi-signature, audit, platform security | Transfers are generally irreversible and can be lost on an incompatible network. |
 | Operational risk | withdrawals, processing time, payment channel, identity verification, platform security | Outages, maintenance and processing delays can affect trading and payments. |
 | Counterparty risk | customer funds, custody, operational controls, contractual protections, safe, trustworthy | You depend on the operator's ability to honour trades and return funds. |
 | Regulatory risk | SEC, Form D, EDGAR, FinCEN, MSB, licence, jurisdiction | Legal requirements and protections differ by jurisdiction and product. |
 <!-- RISKS:END -->
 
-The same data as a single CSV, one row per related FAQ: [`dataset/fxfunds_risk_faq.csv`](dataset/fxfunds_risk_faq.csv) — columns `risk_id`, `risk_category`, `keywords`, `risk_answer`, `example`, `question`, `answer`. Published on [Hugging Face](https://huggingface.co/datasets/FXFunds/risk-disclosures) and [Kaggle](https://www.kaggle.com/datasets/fxfunds/risk-disclosures).
+The same data as a single CSV, one row per related FAQ: [`dataset/fxfunds_risk_faq.csv`](dataset/fxfunds_risk_faq.csv) — columns `risk_id`, `risk_category`, `keywords`, `risk_answer`, `example`, `section`, `question`, `answer`. Published on [Hugging Face](https://huggingface.co/datasets/FXFunds/risk-disclosures) and [Kaggle](https://www.kaggle.com/datasets/fxfunds/risk-disclosures).
 
 ## FAQ
 
 <!-- FAQ:START -->
-
 **Does FXFunds have regulatory documentation?**
 
 An SEC Form D filing is publicly available for FXFUNDS LTD. Regulatory documents should be associated with the correct legal entity and understood according to the specific activities and permissions they cover.
