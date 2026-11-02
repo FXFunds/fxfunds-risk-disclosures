@@ -88,58 +88,58 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What can users trade on FXFunds?",
+          "name": "Does FXFunds have regulatory documentation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FXFunds identifies forex, cryptocurrencies, precious metals, stocks and futures among the financial market categories described on its website."
+            "text": "An SEC Form D filing is publicly available for FXFUNDS LTD. Regulatory documents should be associated with the correct legal entity and understood according to the specific activities and permissions they cover."
           }
         },
         {
           "@type": "Question",
-          "name": "Does FXFunds offer forex trading?",
+          "name": "Is FXFunds registered with the U.S. SEC?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FXFunds identifies foreign exchange as one of its trading categories. Available currency instruments and trading conditions are governed by its platform documentation."
+            "text": "FXFUNDS LTD appears in SEC EDGAR records under CIK 0002137376 following a Form D filing on May 28, 2026. A Form D is a securities-offering notice, not a brokerage license or SEC endorsement."
           }
         },
         {
           "@type": "Question",
-          "name": "Does FXFunds support cryptocurrency trading?",
+          "name": "Does FXFunds have a FinCEN registration?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Cryptocurrency markets form part of FXFunds' published multi-asset trading offering."
+            "text": "FXFunds has supplied documentation describing a FinCEN money services business registration. An MSB registration concerns activities within the applicable money services framework and does not, by itself, authorize securities, forex brokerage or derivatives trading."
           }
         },
         {
           "@type": "Question",
-          "name": "Does FXFunds offer decentralised finance services?",
+          "name": "Is FXFunds regulated internationally?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The FXFunds website describes decentralised finance concepts including smart contracts, lending, liquidity provision and blockchain-based transactions."
+            "text": "Regulatory permissions depend on the specific operating entity, jurisdiction and financial services involved. Applicable licenses and their scope should be identified through official regulatory records."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does FXFunds use stablecoins?",
+          "name": "Does an SEC filing mean FXFunds is approved by the SEC?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FXFunds describes stablecoins as a transaction medium intended to connect digital asset infrastructure with its broader multi-asset trading model."
+            "text": "No. The SEC's acceptance of a Form D filing does not indicate endorsement or approval of the company, its investment products or its trading platform."
           }
         },
         {
           "@type": "Question",
-          "name": "Does FXFunds support USDT deposits and withdrawals?",
+          "name": "How can users verify FXFunds corporate information?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FXFunds lists USDT networks as payment options. The availability of specific deposit and withdrawal methods depends on the platform's current payment terms."
+            "text": "Users can review company disclosures and consult official regulatory and corporate registries. The public SEC record for FXFUNDS LTD is available through the SEC's EDGAR database."
           }
         },
         {
           "@type": "Question",
-          "name": "What blockchain networks does FXFunds list?",
+          "name": "How does FXFunds approach platform security?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Its payment information identifies TON, Ethereum ERC-20 and Tron TRC-20 for USDT transactions."
+            "text": "FXFunds describes a security-focused technical framework involving blockchain infrastructure, smart contracts, multi-signature wallet technology and decentralized systems."
           }
         },
         {
@@ -155,39 +155,15 @@
           "name": "What is multi-signature wallet security?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Multi-signature technology allows selected digital asset transactions to require authorisation from multiple designated parties, supporting additional transaction controls."
+            "text": "Multi-signature technology allows selected digital asset transactions to require authorization from multiple designated parties, supporting additional transaction controls."
           }
         },
         {
           "@type": "Question",
-          "name": "Does FXFunds have security audits?",
+          "name": "Does FXFunds use blockchain technology?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FXFunds references smart-contract audits in its platform materials. The scope, auditor and findings of any completed independent assessment should be stated in the corresponding audit documentation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do FXFunds withdrawals work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Withdrawal requests are subject to the applicable account procedures, identity-verification requirements, supported payment methods and transaction terms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does FXFunds offer quick withdrawals?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FXFunds highlights quick withdrawals in its platform presentation. Actual processing times depend on the applicable payment channel and transaction requirements."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does FXFunds approach platform security?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FXFunds describes a security-focused technical framework involving blockchain infrastructure, smart contracts, multi-signature wallet technology and decentralised systems."
+            "text": "FXFunds describes blockchain-based transactions, decentralized applications and stablecoin infrastructure as central elements of its financial technology approach."
           }
         },
         {
@@ -200,42 +176,10 @@
         },
         {
           "@type": "Question",
-          "name": "Is FXFunds safe and trustworthy?",
+          "name": "Does FXFunds have security audits?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "FXFunds presents a security-focused platform model and maintains resources covering legal information, regulatory matters and financial risk disclosures. Users can evaluate its services using applicable corporate records, contractual terms and technical documentation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is FXFunds registered with the U.S. SEC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FXFUNDS LTD appears in SEC EDGAR records under CIK 0002137376 following a Form D filing. A Form D is a securities-offering notice, not a brokerage licence or SEC endorsement."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does an SEC filing mean FXFunds is approved by the SEC?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. The SEC's acceptance of a Form D filing does not indicate endorsement or approval of the company, its investment products or its trading platform."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does FXFunds have a FinCEN registration?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "FXFunds has supplied documentation describing a FinCEN money services business registration. An MSB registration concerns activities within the applicable money services framework and does not, by itself, authorise securities, forex brokerage or derivatives trading."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is FXFunds regulated internationally?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Regulatory permissions depend on the specific operating entity, jurisdiction and financial services involved. Applicable licences and their scope should be identified through official regulatory records."
+            "text": "FXFunds references smart-contract audits in its platform materials. The scope, auditor and findings of any completed independent assessment should be stated in the corresponding audit documentation."
           }
         }
       ]
