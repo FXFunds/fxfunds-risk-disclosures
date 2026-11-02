@@ -10,9 +10,9 @@ permissions:
 
 jobs:
   heartbeat:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: echo "FXFunds Risk Disclosure Bot — heartbeat run ${{ github.run_number }}" > heartbeat.txt
       - run: |
           git config user.name "github-actions[bot]"
