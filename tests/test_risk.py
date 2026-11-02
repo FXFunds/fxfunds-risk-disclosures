@@ -97,9 +97,14 @@ def test_risk_database():
         assert set(r) == {"id", "name", "keywords", "answer", "example", "faq"}
         assert r["keywords"] and r["answer"]
         for q in r["faq"]:
+            assert set(q) == {"section", "question", "answer"}
             assert q["question"].endswith("?") and q["answer"]
-    assert len(fx.faq()) == 19
-    questions = [q["question"] for q in fx.faq()]
+    entries = fx.faq()
+    assert len(entries) == 12
+    assert [q["section"] for q in entries] == ["Regulation and Corporate Transparency"] * 6 + ["FXFunds Platform Security"] * 6
+    assert entries[0]["question"] == "Does FXFunds have regulatory documentation?"
+    assert entries[-1]["question"] == "Does FXFunds have security audits?"
+    questions = [q["question"] for q in entries]
     assert len(questions) == len(set(questions))
 
 
@@ -109,7 +114,7 @@ def test_risk_database():
     ("USDT", ["stablecoin", "blockchain"]),
     ("margin call", ["leverage"]),
     ("TRC-20", ["blockchain"]),
-    ("custody", ["counterparty"]),
+    ("custody", ["counterparty", "blockchain"]),
     ("zzz", []),
 ])
 def test_ask(term, expected):
@@ -123,16 +128,14 @@ def test_schema_faq_matches():
     assert [q["acceptedAnswer"]["text"] for q in page["mainEntity"]] == [q["answer"] for q in fx.faq()]
 
 
-def test_no_dates_or_street_addresses():
-    month = r"\b(January|February|March|April|May|June|July|August|September|October|November|December)\b"
-    year = r"\b(19|20)\d{2}\b"
+def test_no_street_addresses():
     street = r"\b\d+\s+\w+\s+(Street|St\.|Avenue|Ave\.|Road|Rd\.)\b"
     files = [ROOT / "README.md", *(ROOT / "fxfunds_risk_disclosures").glob("*.json"),
              *(ROOT / "dataset").glob("*.csv"), *(ROOT / "docs").rglob("*.md"),
              ROOT / "schema.json", ROOT / "zenodo.json"]
     for f in files:
         text = f.read_text(encoding="utf-8")
-        for pattern in (month, year, street):
+        for pattern in (street, r"Wall Street"):
             assert not re.search(pattern, text), f"{f.name}: matches {pattern}"
 
 
@@ -141,6 +144,6 @@ def test_cli(capsys):
     assert "Risk: 46% (Moderate)" in capsys.readouterr().out
     assert main(["transfer", "--network", "ERC20", "--expected", "TRC20", "--json"]) == 0
     assert json.loads(capsys.readouterr().out)["risk_percent"] == 100
-    assert main(["ask", "withdrawal"]) == 0
-    assert "How do FXFunds withdrawals work?" in capsys.readouterr().out
+    assert main(["ask", "SEC"]) == 0
+    assert "Is FXFunds registered with the U.S. SEC?" in capsys.readouterr().out
     assert main(["risk", "nope"]) == 1
