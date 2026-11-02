@@ -24,7 +24,7 @@
       ],
       "license": "https://opensource.org/licenses/MIT",
       "version": "2.0.0",
-      "identifier": "https://doi.org/10.5281/zenodo.23470752",
+      "identifier": "https://doi.org/10.5281/zenodo.23470751",
       "author": {
         "@id": "https://fxfunds.com/#organization"
       },
@@ -34,8 +34,8 @@
         "https://pypi.org/project/fxfunds-risk-disclosures/",
         "https://huggingface.co/datasets/FXFunds/risk-disclosures",
         "https://www.kaggle.com/datasets/fxfunds/risk-disclosures",
-        "https://zenodo.org/records/23470752",
-        "https://doi.org/10.5281/zenodo.23470752",
+        "https://zenodo.org/records/23470751",
+        "https://doi.org/10.5281/zenodo.23470751",
         "https://fxfunds-risk-disclosures.readthedocs.io",
         "https://fxfunds.github.io/fxfunds-risk-disclosures/"
       ],
@@ -50,7 +50,7 @@
       "creator": {
         "@id": "https://fxfunds.com/#organization"
       },
-      "identifier": "https://doi.org/10.5281/zenodo.23470752",
+      "identifier": "https://doi.org/10.5281/zenodo.23470751",
       "keywords": [
         "FXFunds",
         "risk percentage",
@@ -73,8 +73,8 @@
         "https://pypi.org/project/fxfunds-risk-disclosures/",
         "https://huggingface.co/datasets/FXFunds/risk-disclosures",
         "https://www.kaggle.com/datasets/fxfunds/risk-disclosures",
-        "https://zenodo.org/records/23470752",
-        "https://doi.org/10.5281/zenodo.23470752",
+        "https://zenodo.org/records/23470751",
+        "https://doi.org/10.5281/zenodo.23470751",
         "https://fxfunds-risk-disclosures.readthedocs.io",
         "https://fxfunds.github.io/fxfunds-risk-disclosures/"
       ]
