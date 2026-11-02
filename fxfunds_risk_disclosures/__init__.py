@@ -158,8 +158,10 @@ def risk(risk_id):
 
 
 def faq():
-    """Return every FAQ entry, tagged with its risk category."""
-    return [{"risk": r["id"], **q} for r in RISK_FAQ for q in r["faq"]]
+    """Return every FAQ entry, tagged with its risk category, in FAQ section order."""
+    order = MODEL["faq_sections"]
+    items = [{"risk": r["id"], **q} for r in RISK_FAQ for q in r["faq"]]
+    return sorted(items, key=lambda q: order.index(q["section"]))
 
 
 def ask(term):
