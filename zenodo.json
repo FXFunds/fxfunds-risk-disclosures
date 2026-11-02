@@ -1,0 +1,83 @@
+{
+  "title": "FXFunds — Risk Disclosure Bot",
+  "upload_type": "software",
+  "version": "2.0.0",
+  "description": "FXFunds Risk Disclosure Bot tells you how much risk, as a percentage, a trade or a USDT transfer carries at the moment you check it. It weighs leverage, position size, stop loss, volatility and current market timing (weekends, closed markets, rollover hours, news) and returns a 0–100% risk figure with a level and explanation. Transfer checks cover network mismatch, address format, missing memo and first-time addresses. A single risk database links eight risk categories to FAQ keywords, plain answers, examples and the related FXFunds FAQs, searchable by keyword. Offline Node.js and Python library with a CLI and one CSV dataset.",
+  "creators": [
+    {
+      "name": "FXFunds"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "FXFunds",
+    "risk percentage",
+    "risk score",
+    "trading risk",
+    "leverage",
+    "forex",
+    "cryptocurrency",
+    "stablecoin",
+    "USDT",
+    "market hours",
+    "FAQ"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/FXFunds/fxfunds-risk-disclosures",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://fxfunds.com/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.npmjs.com/package/@fxfunds/risk-disclosures",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://pypi.org/project/fxfunds-risk-disclosures/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/FXFunds/risk-disclosures",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/fxfunds/risk-disclosures",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://fxfunds-risk-disclosures.readthedocs.io",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23467990",
+      "relation": "isRelatedTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23424646",
+      "relation": "isRelatedTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23463811",
+      "relation": "isRelatedTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23464782",
+      "relation": "isRelatedTo",
+      "scheme": "doi"
+    }
+  ]
+}

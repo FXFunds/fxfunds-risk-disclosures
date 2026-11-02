@@ -1,0 +1,17 @@
+site_name: FXFunds Risk Disclosure Bot
+site_url: https://fxfunds-risk-disclosures.readthedocs.io
+site_description: Risk percentage for trades and USDT transfers and a risk FAQ database.
+repo_url: https://github.com/FXFunds/fxfunds-risk-disclosures
+repo_name: FXFunds/fxfunds-risk-disclosures
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - search.highlight
+nav:
+  - Home: index.md
+  - Risk FAQ: faq.md
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxfunds-risk-disclosures"
+version = "2.0.0"
+description = "FXFunds Risk Disclosure Bot — risk percentage for a trade or USDT transfer at the moment it is checked, with a risk FAQ database searchable by keyword."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "FXFunds" }]
+requires-python = ">=3.9"
+keywords = ["fxfunds", "risk disclosure", "trading risk", "leverage", "forex", "cryptocurrency", "stablecoin", "usdt", "faq", "risk score"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://fxfunds.com/"
+Repository = "https://github.com/FXFunds/fxfunds-risk-disclosures"
+Documentation = "https://fxfunds-risk-disclosures.readthedocs.io"
+DOI = "https://doi.org/10.5281/zenodo.23470752"
+
+[project.scripts]
+fxfunds-risk = "fxfunds_risk_disclosures.__main__:main"
+
+[tool.setuptools]
+packages = ["fxfunds_risk_disclosures"]
+
+[tool.setuptools.package-data]
+fxfunds_risk_disclosures = ["*.json"]
