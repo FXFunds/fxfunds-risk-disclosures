@@ -23,7 +23,7 @@ classifiers = [
 Homepage = "https://fxfunds.com/"
 Repository = "https://github.com/FXFunds/fxfunds-risk-disclosures"
 Documentation = "https://fxfunds-risk-disclosures.readthedocs.io"
-DOI = "https://doi.org/10.5281/zenodo.23470752"
+DOI = "https://doi.org/10.5281/zenodo.23470751"
 
 [project.scripts]
 fxfunds-risk = "fxfunds_risk_disclosures.__main__:main"
